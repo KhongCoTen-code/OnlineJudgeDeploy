@@ -35,9 +35,9 @@ services:
   judge-server:
     #image: registry.cn-hangzhou.aliyuncs.com/onlinejudge/judge_server
     # 原版镜像
-    image: registry.cn-hangzhou.aliyuncs.com/wenjian_oj/judgeserver
+    #image: registry.cn-hangzhou.aliyuncs.com/wenjian_oj/judgeserver
     # 开发版镜像
-    #image: luyencode/judge-server
+    image: luyencode/judge-server
     # 稳定版镜像
     container_name: judge-server
     restart: always
