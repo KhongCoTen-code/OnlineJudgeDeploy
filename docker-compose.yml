@@ -69,7 +69,8 @@ services:
     #image: registry.cn-hangzhou.aliyuncs.com/wenjian_oj/oj-backend # server china có màu sắc
     #image: registry.cn-qingdao.aliyuncs.com/wenjian_oj/vue # chưa có j khác
     #image: registry.cn-hangzhou.aliyuncs.com/onlinejudge/oj_backend
-    image: registry.cn-qingdao.aliyuncs.com/wenjian_oj/backend
+    #image: registry.cn-qingdao.aliyuncs.com/wenjian_oj/backend # khong có j khác
+    image: registry.cn-hongkong.aliyuncs.com/oj-image/backend:1.6.1
 
     #image: luyencode/oj-backend
     container_name: oj-backend
